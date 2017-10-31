@@ -46,6 +46,13 @@ public class ArrayList<E> implements List<E> {
 		if(size == arreglo.length) {
 		Redimensionar(1+arreglo.length);
 		}
+		for (int k = size-1; k >= i; k--)
+			arreglo[k + 1] = arreglo[k];
+		arreglo[i] = e; 
+		size++;
+		
+		
+		
 		
 		
 }

@@ -207,12 +207,15 @@ public class PositionalLinkedList<E> implements PositionalList<E>, Iterable<E> {
 	 * Método que cambia una posición de la lista con la otra y viceversa
 	 */
 	public void swap(Position<E> p, Position<E> q) {
-		
+		System.out.println("p = "+ p.getElement());
+		System.out.println("q = "+ q.getElement());
 		Node<E> temp = validate(p);
 		Node<E> temp1 = validate(q);
 		q = position(temp);
 		p = position(temp1);
 		
+		System.out.println("q = "+ q.getElement());
+		System.out.println("p = "+ p.getElement());
 		
 		
 		
