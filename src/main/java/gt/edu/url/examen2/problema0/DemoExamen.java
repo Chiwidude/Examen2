@@ -9,7 +9,12 @@ package gt.edu.url.examen2.problema0;
  *
  * @author tuxtor
  */
-public class DemoExamen {
+public class DemoExamen implements DemoInterfaz{
+
+	@Override
+	public String saludarClase(String nombre) {
+		return "Hola " + " " + nombre;
+	}
     
     
     

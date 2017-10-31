@@ -10,5 +10,9 @@ package gt.edu.url.examen2.problema2;
  * @author tuxtor
  */
 public interface DemoList {
+	/**
+	 * Metodo que crea una lista con elementos indicados
+	 * @return Lista de enteros
+	 */
     List<Integer> crearDemoLista();
 }
